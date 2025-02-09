@@ -1,0 +1,106 @@
+/* Global settings */
+.root {
+    -fx-font-family: 'Segoe UI', sans-serif;
+    -fx-font-size: 14px;
+    -fx-background-color: #f4f7f9; /* Subtle light gray background */
+}
+
+/* Tab Pane styling */
+.tab-pane-custom {
+    -fx-background-color: linear-gradient(to bottom, #e0f7fa, #b2ebf2);
+}
+
+/* Customize the tab header area */
+.tab-header-area {
+    -fx-background-color: #00796b;
+}
+.tab-pane .tab-header-background {
+    -fx-background-color: #004d40;
+}
+.tab-pane .tab {
+    -fx-background-color: #26a69a;
+    -fx-text-base-color: white;
+    -fx-font-weight: bold;
+}
+
+/* Panel styling for each tab */
+.add-book-pane, .list-books-pane, .search-books-pane {
+    -fx-background-color: rgba(255, 255, 255, 0.95);
+    -fx-background-radius: 10;
+    -fx-padding: 20;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.15), 10, 0, 0, 2);
+}
+
+/* Label styling */
+.label {
+    -fx-text-fill: #333333;
+}
+
+/* Stylish Button Base (applied via specific button classes) */
+.button-add,
+.button-refresh,
+.button-search,
+.button-update,
+.button-delete {
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-cursor: hand;
+    -fx-font-weight: bold;
+    -fx-padding: 8 15 8 15;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.25), 5, 0.0, 0, 2);
+    -fx-transition: all 0.3s ease;
+}
+
+/* Specific button styles */
+.button-add {
+    -fx-background-color: linear-gradient(to bottom, #42a5f5, #1e88e5);
+    -fx-text-fill: white;
+}
+.button-add:hover {
+    -fx-background-color: linear-gradient(to bottom, #64b5f6, #1976d2);
+}
+
+.button-refresh {
+    -fx-background-color: linear-gradient(to bottom, #66bb6a, #43a047);
+    -fx-text-fill: white;
+}
+.button-refresh:hover {
+    -fx-background-color: linear-gradient(to bottom, #81c784, #388e3c);
+}
+
+.button-search {
+    -fx-background-color: linear-gradient(to bottom, #ffa726, #fb8c00);
+    -fx-text-fill: white;
+}
+.button-search:hover {
+    -fx-background-color: linear-gradient(to bottom, #ffb74d, #f57c00);
+}
+
+.button-update {
+    -fx-background-color: linear-gradient(to bottom, #5c6bc0, #3949ab);
+    -fx-text-fill: white;
+}
+.button-update:hover {
+    -fx-background-color: linear-gradient(to bottom, #7986cb, #303f9f);
+}
+
+.button-delete {
+    -fx-background-color: linear-gradient(to bottom, #ef5350, #e53935);
+    -fx-text-fill: white;
+}
+.button-delete:hover {
+    -fx-background-color: linear-gradient(to bottom, #e57373, #d32f2f);
+}
+
+/* Error Labels */
+.error-label {
+    -fx-text-fill: #d32f2f;
+    -fx-font-weight: bold;
+}
+
+/* ComboBox styling */
+.combo-box {
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-padding: 3;
+}
